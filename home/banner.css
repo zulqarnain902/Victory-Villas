@@ -104,10 +104,12 @@ h1 {
     .navbar {
         display: none;
     }
+    
     .navbarMobile{
         display: block;
     }
 }
+
 
 @media screen and (max-width: 1400px) {
     .centered{
@@ -180,7 +182,11 @@ h1 {
   background-color: #131212;
   color: black;
 }
-
+@media screen and (min-width: 768px) {
+    .topnav{
+        display: none;
+    }
+}
 .active {
   background-color: #285854;
   color: white;
